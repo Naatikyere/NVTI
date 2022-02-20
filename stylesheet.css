@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  width: auto;
+  line-height: 1.5;
+  color: #8a8f98;
+  background-color: #f7f8f8;
+  color-scheme: dark;
+  font-size: 0.875em;
+  height: 100%;
+  --main-color: #f7f8f8;
+  --text-color: #95a2b3;
+}
+#box {
+  box-shadow: 0px 0px 15px 0px rgb(14, 12, 12);
+  height: 60vmin;
+}
+.container {
+  margin: 2em;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.dept {
+  height: 4em;
+  display: grid;
+}
+.dept ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  list-style: none;
+  margin: 1em 0;
+}
+li {
+  font-size: 0.85em;
+  margin-right: 1.5em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+li a {
+  text-decoration: none;
+}
+
+.log {
+  display: flex;
+  width: 100%;
+  font-size: 24px;
+  background-color: hsl(240deg, 70%, 70%);
+  height: 20vmin;
+}
+.welcometext {
+  font-size: 2em;
+  line-height: 1.2;
+  margin: auto 0;
+  cursor: pointer;
+}
+.firstpage {
+  opacity: 0.3;
+  width: 100%;
+  background-color: #fdd5b1;
+  background-image: url(enterance.jpg);
+  height: 60vmin;
+  padding: 2em;
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+}
+.dept1 {
+  background-color: #00f500;
+  height: 60vmin;
+}
+h4 {
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1.2;
+  text-transform: capitalize;
+  color: var(--main-color);
+  font-weight: 700;
+  padding-top: 0.5em;
+}
+p {
+  position: absolute;
+  margin-top: 0.6em;
+  left: 38%;
+  font-size: 2em;
+  animation-name: moving-theme;
+  animation-duration: 10s;
+}
+@keyframes moving-theme {
+  0% {
+    right: 12%;
+    color: white;
+  }
+  12% {
+    left: 6%;
+    opacity: 0.2;
+  }
+  35% {
+    left: 20%;
+    color: green;
+  }
+  50% {
+    color: var(--text-color);
+  }
+  100% {
+    left: 38%;
+    color: #f7f8f8;
+  }
+}
+.dept2 {
+  height: 60vmin;
+  background-color: #a67b5b;
+}
+.dept3 {
+  background-color: #b2ffff;
+}
+.dept4 {
+  background-color: #2a52be;
+}
+.emojie {
+  position: absolute;
+  height: 8.6vh;
+}
