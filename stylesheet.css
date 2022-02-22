@@ -4,18 +4,18 @@
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
-
+/* setting the root variables*/
 :root {
   width: auto;
   line-height: 1.5;
   color: #8a8f98;
   background-color: #f7f8f8;
   color-scheme: dark;
-  font-size: 0.875em;
+  font-size: 16px;
   height: 100%;
   --main-color: #f7f8f8;
   --text-color: #95a2b3;
-}
+} /* Each dept have the same Id */
 #box {
   box-shadow: 0px 0px 15px 0px rgb(14, 12, 12);
   height: 60vmin;
@@ -27,22 +27,28 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+.logo {
+  border-radius: 50%;
+  height: 20vmin;
+}
 .dept {
   height: 4em;
   display: grid;
+  font-size: 16px;
 }
 .dept ul {
   display: flex;
   flex-direction: row;
   font-size: 1.5em;
   list-style: none;
-  margin: 1em 0;
+  margin: 1.5em 2em 1.5em 3em;
 }
 li {
-  font-size: 0.85em;
-  margin-right: 1.5em;
+  font-size: 0.55em;
+  margin: 0 1.2em;
   text-transform: uppercase;
   line-height: 1;
+  justify-content: space-around;
 }
 li a {
   text-decoration: none;
@@ -51,25 +57,40 @@ li a {
 .log {
   display: flex;
   width: 100%;
-  font-size: 24px;
+  justify-content: space-around;
+  font-size: 1.6em;
   background-color: hsl(240deg, 70%, 70%);
   height: 20vmin;
 }
+/* nav task bar text */
 .welcometext {
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.2;
   margin: auto 0;
   cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 900;
+  background: linear-gradient(90deg, hsl(), rgb(166, 231, 248));
 }
 .firstpage {
   opacity: 0.3;
   width: 100%;
   background-color: #fdd5b1;
-  background-image: url(enterance.jpg);
-  height: 60vmin;
+  background-image: url(/images/enterance.jpeg);
+  background-position: center center;
+  height: 70vmin;
   padding: 2em;
   margin-top: 1em;
   margin-bottom: 0.8em;
+}
+.firstpage > h2 {
+  text-transform: capitalize;
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 900;
+  color: hsl(230deg, 100%, 60%);
+  text-shadow: black;
+  margin-top: 1em;
 }
 .dept1 {
   background-color: #00f500;
@@ -86,7 +107,7 @@ h4 {
 }
 p {
   position: absolute;
-  margin-top: 0.6em;
+  margin-top: 0.2em;
   left: 38%;
   font-size: 2em;
   animation-name: moving-theme;
@@ -126,4 +147,58 @@ p {
 .emojie {
   position: absolute;
   height: 8.6vh;
+}
+.dept5 {
+  background-color: #eeff1b;
+}
+.dept6 {
+  background-color: #2a52be;
+}
+.dept7 {
+  background-color: #87ceeb;
+}
+.dept8 {
+  background-color: #cf3476;
+}
+.tweets {
+  background-color: black;
+  width: 100;
+  height: 60vmin;
+  display: flex;
+  flex-direction: row;
+  color-scheme: dark;
+}
+.tweet1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1em;
+}
+.tweet_box {
+  background-color: #87ceeb;
+  height: 60rem;
+  /*width: calc(50% - 2em);*/
+  border-radius: 1em;
+  margin: 0.4em;
+}
+footer {
+  background-color: #e7feff;
+  backdrop-filter: blur(5px);
+  height: 5em;
+  border: 2px solid transparent;
+}
+.log_part {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5em;
+}
+.foot {
+  height: 10vmin;
+  border-radius: 50%;
+}
+.log_part > h3 {
+  margin: auto 0;
+  padding: 0 0 0 0.55em;
+  font-size: 1.5em;
+  line-height: 1;
 }
