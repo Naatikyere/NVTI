@@ -1,11 +1,16 @@
-* {
+::after,
+::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
+}
+* {
+  box-sizing: border-box;
 }
 /* setting the root variables*/
 :root {
+  box-sizing: border-box;
   width: auto;
   line-height: 1.5;
   color: #8a8f98;
@@ -20,8 +25,11 @@
   box-shadow: 0px 0px 15px 0px rgb(14, 12, 12);
   height: 60vmin;
 }
+.allone {
+  margin: 0 auto;
+}
 .container {
-  margin: 2em;
+  margin: 0 2em;
   display: flex;
   width: 100%;
   flex-direction: column;
@@ -64,14 +72,170 @@ li a {
 }
 /* nav task bar text */
 .welcometext {
-  font-size: 1.5em;
+  font-size: 1.4em;
   line-height: 1.2;
   margin: auto 0;
   cursor: pointer;
+  text-align: center;
   text-transform: capitalize;
   font-weight: 900;
   background: linear-gradient(90deg, hsl(), rgb(166, 231, 248));
 }
+/* section for management */
+.manager {
+  margin: 2em;
+  background-color: #e1e1e1;
+  border-radius: 1.5em;
+}
+
+.space {
+  display: flex;
+  flex-direction: row;
+  padding: 0.6em 1em;
+  width: 100%;
+}
+.msg {
+  font-size: 1em;
+  line-height: 0.9em;
+  text-transform: capitalize;
+}
+.msg p {
+  margin: 0;
+  font-size: 0.7em;
+  font-weight: 700;
+}
+.correct_Pic {
+  flex-grow: 2;
+}
+.message {
+  padding: 0.6em;
+  font-size: 2em;
+  line-height: 0.5em;
+  flex-grow: 1;
+}
+.mana {
+  font-size: 1.3em;
+  color: rgb(39, 104, 235);
+}
+.thisis {
+  line-height: 1.2;
+}
+
+/* information box bot nav */
+.informationbox {
+  display: flex;
+  border-radius: 1em;
+  flex-direction: row;
+  background-color: #7df;
+  width: 100%;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.infobox {
+  font-size: 0.6em;
+  text-align: left;
+  margin: 0.6em 0 0.6em 0.3em;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Arial Narrow Bold";
+  background: transparent;
+}
+.top {
+  height: 0.7em;
+  margin: 0;
+
+  background-color: #7f5230;
+}
+.part1 {
+  width: calc(40% - 1em);
+  margin-right: 1em;
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow: hidden;
+}
+.part2 {
+  width: 60%;
+}
+.course {
+  background-color: #2a52be;
+  margin: 0.6em 0 0.5em 1em;
+  width: 100%;
+  font-size: 1.8em;
+  text-align: center;
+  overflow: hidden;
+}
+/* background color for each dept */
+.fas {
+  background-color: #00f500;
+  border-bottom: 1px solid #00f500;
+  margin-bottom: 0;
+}
+.it {
+  background-color: #c7d04b;
+  border-bottom: 1px solid #c7d04b;
+  margin-bottom: 0;
+}
+.elec {
+  background-color: #a67b5b;
+  border-bottom: #a67b5b;
+  margin-bottom: 0;
+}
+.cater {
+  background-color: #cf3476;
+  border-bottom: #cf3476;
+  margin-bottom: 0;
+}
+.build {
+  background-color: rgb(211, 96, 220);
+  border-bottom: rgb(194, 76, 214);
+  margin-bottom: 0;
+}
+.auto {
+  background-color: #87ceeb;
+  border-bottom: #87ceeb;
+  margin-bottom: 0;
+}
+.weliding {
+  background-color: #2a52be;
+  border-bottom: #2a52be;
+  margin-bottom: 0;
+}
+.plumbing {
+  background-color: #8a8f98;
+  border-bottom: #8a8f98;
+  margin-bottom: 0;
+}
+/* hyper links section */
+.quickfind {
+  background-color: #7f5230;
+  height: 50vh;
+  width: 98%;
+  border-radius: 1.5em 0 1em 0;
+  margin: 1.2em 2em 0 0;
+}
+.quickfind li {
+  font-size: 0.8em;
+  line-height: 5;
+  list-style: none;
+}
+p1 {
+  padding: 1em;
+  margin: 0.2em;
+}
+h5 {
+  text-transform: uppercase;
+  color: var(--main-color);
+  align-content: center;
+  font-size: 1em;
+  margin: 0 auto;
+  padding: 0.2em;
+  width: 100%;
+  height: ;
+  text-align: center;
+  border-bottom: 1px solid;
+  padding: 0.5em 1em;
+}
+
 .firstpage {
   opacity: 0.3;
   width: 100%;
@@ -105,15 +269,15 @@ h4 {
   font-weight: 700;
   padding-top: 0.5em;
 }
-p {
+/*p {
   position: absolute;
   margin-top: 0.2em;
   left: 38%;
   font-size: 2em;
   animation-name: moving-theme;
   animation-duration: 10s;
-}
-@keyframes moving-theme {
+}*/
+/moving-theme {
   0% {
     right: 12%;
     color: white;
@@ -134,7 +298,7 @@ p {
     color: #f7f8f8;
   }
 }
-.dept2 {
+*/ .dept2 {
   height: 60vmin;
   background-color: #a67b5b;
 }
