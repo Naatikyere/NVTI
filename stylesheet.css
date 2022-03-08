@@ -35,14 +35,36 @@
   flex-direction: column;
   flex-wrap: wrap;
 }
+.about_us {
+  background-image: url(/images/about_us-bg.jpg);
+  height: 45vh;
+  background-position: center center;
+}
+.about {
+  border-bottom: none;
+  margin-top: 3rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+}
+a:hover {
+  cursor: pointer;
+  transition: 0.3s ease-out #8a8f98;
+}
 .logo {
   border-radius: 50%;
   height: 20vmin;
 }
 .dept {
-  height: 4em;
+  justify-content: flex-end;
+  align-items: center;
+  height: 4.1em;
   display: grid;
-  font-size: 16px;
+  font-size: 0.857em;
+  background: var(--main-color);
 }
 .dept ul {
   display: flex;
@@ -277,7 +299,7 @@ h4 {
   animation-name: moving-theme;
   animation-duration: 10s;
 }*/
-/moving-theme {
+/*moving-theme {
   0% {
     right: 12%;
     color: white;
@@ -298,7 +320,8 @@ h4 {
     color: #f7f8f8;
   }
 }
-*/ .dept2 {
+*/
+.dept2 {
   height: 60vmin;
   background-color: #a67b5b;
 }
@@ -324,33 +347,58 @@ h4 {
 .dept8 {
   background-color: #cf3476;
 }
+/* tweets section */
+.statements {
+  font-size: 2em;
+  color: #87ceeb;
+  text-align: center;
+  padding-top: 3rem;
+  font-weight: 700;
+}
 .tweets {
-  background-color: black;
-  width: 100;
-  height: 60vmin;
-  display: flex;
-  flex-direction: row;
+  background-color: blur(5px);
+  width: 100%;
+  height: ;
   color-scheme: dark;
 }
 .tweet1 {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   width: 100%;
-  padding: 1em;
+  padding: 2em;
+  flex: 1;
 }
 .tweet_box {
   background-color: #87ceeb;
-  height: 60rem;
-  /*width: calc(50% - 2em);*/
+  width: calc(33.33% - 1.2em);
   border-radius: 1em;
   margin: 0.4em;
+  padding: 2em;
 }
+/* the footer side */
 footer {
+  display: flex;
+  width: 100%;
+  flex: 2;
   background-color: #e7feff;
   backdrop-filter: blur(5px);
   height: 5em;
   border: 2px solid transparent;
 }
+/* Social media */
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 50%;
+}
+.social i {
+  margin: 0 1rem;
+}
+.fa-youtube {
+  color: red;
+}
+
 .log_part {
   display: flex;
   flex-direction: row;
