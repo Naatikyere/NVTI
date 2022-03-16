@@ -50,7 +50,7 @@ header {
   right: 0;
   width: 100%;
   max-height: 3em;
-  margin: ;
+  z-index: 2;
 }
 /* main area */
 .main_area {
@@ -70,11 +70,17 @@ a:hover {
 }
 .dept {
   justify-content: flex-end;
+  flex-direction: row;
   align-items: center;
   height: 4.1em;
-  display: grid;
+  display: flex;
   font-size: 0.857em;
   background: var(--main-color);
+}
+.dept p {
+  justify-content: flex-start;
+  flex-grow: 2;
+  margin: 1.5em 0 1.5em 1em;
 }
 .dept ul {
   display: flex;
@@ -183,6 +189,9 @@ li a {
   width: 100%;
   justify-content: space-between;
   margin: 0 auto;
+}
+.course a {
+  text-decoration: none;
 }
 .infobox {
   font-size: 0.6em;

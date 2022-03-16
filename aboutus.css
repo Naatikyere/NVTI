@@ -61,11 +61,17 @@ a:hover {
   justify-content: flex-end;
   align-items: center;
   height: 4.1em;
-  display: grid;
+  display: flex;
+  flex-direction: row;
   font-size: 0.857em;
   background: var(--main-color);
   flex-grow: 1;
   align-items: center;
+}
+.dept p {
+  justify-content: flex-start;
+  flex-grow: 2;
+  margin: 1.5em 0 1.5em 1em;
 }
 .dept ul {
   display: flex;
@@ -109,6 +115,7 @@ li a {
 /* working space */
 .main_area {
   margin: 1em;
+  cursor: pointer;
 }
 /* site for our history */
 .workspace {
@@ -155,12 +162,14 @@ li a {
   flex-direction: row;
   flex: 1;
   padding: 1.3em 1.3em;
+  cursor: pointer;
 }
 /* mission statements */
 .mission {
   padding-right: 2.1em;
   line-height: 1.6;
   font-size: 1.4em;
+  cursor: pointer;
 }
 .mission h2 {
   text-transform: uppercase;
@@ -196,6 +205,95 @@ li a {
   width: 20.8%;
   font-size: 1.518em;
 }
+/* logo informations */
+.about_log {
+  background-color: #8a8f98;
+}
+.loginfo {
+  padding: 0 1.3em 0 1.3em;
+}
 .valus ol {
   padding-left: 5em;
+}
+.log_part > h3 {
+  margin: auto 0;
+  padding: 0 0 0 0.55em;
+  font-size: 1.5em;
+  line-height: 1;
+}
+.loginfo h2 {
+  padding-left: 0.8em;
+}
+.lo {
+  font-size: 1.3em;
+  font-weight: 400;
+  color: #8ae4ff;
+}
+.go {
+  font-size: 1em;
+  font-weight: 600;
+  color: #f7fffc;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin: 0 1.2em;
+}
+.tool1 {
+  display: flex;
+}
+.tool1 p {
+  flex-basis: 60%;
+}
+.tool2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tool2 p {
+  flex-basis: 60%;
+}
+.tool3 {
+  display: flex;
+  flex-direction: row;
+}
+
+.tool3 p {
+  flex-basis: 60%;
+}
+
+/* the footer side */
+footer {
+  display: flex;
+  width: 100%;
+  flex: 2;
+  background-color: #e7feff;
+  backdrop-filter: blur(5px);
+  height: 5em;
+  border: 2px solid transparent;
+  position: ;
+}
+/* Social media */
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-basis: 50%;
+}
+.social i {
+  margin: 0 1rem;
+}
+.fa-youtube {
+  color: red;
+}
+
+.log_part {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5em;
+}
+.foot {
+  height: 10vmin;
+  border-radius: 50%;
 }
