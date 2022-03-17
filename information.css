@@ -168,11 +168,38 @@ li a {
   display: flex;
   flex-direction: column;
 }
+.support_cont {
+  padding: 1.3em;
+}
 .supervisor {
   display: flex;
   flex-direction: row-reverse;
+  flex: 1;
 }
 /* text headings */
 .sub_text {
   font-size: 1.2em;
+  margin-left: 6rem;
+}
+.done {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+.dev_guys {
+  text-align: center;
+}
+/* oferes that is availble at the school section*/
+.offers {
+  padding-top: 3em;
+}
+.msg {
+  text-align: center;
+  font-size: 1em;
+}
+.msg > h3 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.things {
+  border: 1.4px solid black;
 }
