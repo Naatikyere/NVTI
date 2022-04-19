@@ -104,8 +104,6 @@ li a {
   display: flex;
   width: 100%;
   flex-direction: column;
-  flex-wrap: wrap;
-  flex: 1;
   margin-top: 13em;
 }
 /* HOD words for deptment */

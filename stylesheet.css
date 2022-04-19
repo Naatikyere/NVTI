@@ -29,11 +29,9 @@
   margin: 0 auto;
 }
 .container {
-  margin: 0 2em;
   display: flex;
   width: 100%;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .about {
@@ -130,6 +128,7 @@ li a {
   height: 70vmin;
   padding: 2em;
   margin-bottom: 0.8em;
+  line-height: 1.1;
 }
 .firstpage > h2 {
   text-transform: capitalize;
@@ -174,7 +173,8 @@ li a {
 }
 .mana {
   font-size: 1.3em;
-  color: rgb(39, 104, 235);
+  color: hsla(180, 83%, 28%, 0.649);
+  font-weight: 900;
 }
 .thisis {
   line-height: 1.2;
@@ -226,11 +226,18 @@ li a {
   text-align: center;
   overflow: hidden;
 }
+
 /* background color for each dept */
 .fas {
-  background-color: #00f500;
   border-bottom: 1px solid #00f500;
   margin-bottom: 0;
+}
+.fastion{
+  padding-top: 2em;
+}
+.fasintro h4{
+  color: green;
+  margin: 0;
 }
 .it {
   background-color: #c7d04b;
@@ -270,10 +277,9 @@ li a {
 /* hyper links section */
 .quickfind {
   background-color: #7f5230;
-  height: 50vh;
   width: 98%;
-  border-radius: 1.5em 0 1em 0;
-  margin: 1.2em 2em 0 0;
+  border-radius: 1.5em 1em 1em 0;
+  margin: 1.2em 2em 0 0.4em;
 }
 .quickfind li {
   font-size: 0.8em;
@@ -298,7 +304,6 @@ h5 {
 }
 
 .dept1 {
-  background-color: #00f500;
   height: 60vmin;
 }
 h4 {
@@ -342,29 +347,25 @@ h4 {
 */
 .dept2 {
   height: 60vmin;
-  background-color: #a67b5b;
 }
 .dept3 {
-  background-color: #b2ffff;
+  height: 60vmin;
 }
 .dept4 {
-  background-color: #2a52be;
+  height: 60vmin;
 }
-.emojie {
-  position: absolute;
-  height: 8.6vh;
-}
+
 .dept5 {
-  background-color: #eeff1b;
+  height: 60vmin;
 }
 .dept6 {
-  background-color: #2a52be;
+  height: 60vmin;
 }
 .dept7 {
-  background-color: #87ceeb;
+  height: 60vmin;
 }
 .dept8 {
-  background-color: #cf3476;
+  height: 60vmin;
 }
 /* tweets section */
 .statements {

@@ -1,10 +1,114 @@
-@media(min-width:12em){
+@media(min-width:12em)
+{
+    :root {
+        box-sizing: border-box;
+        width: auto;
+        line-height: 1.5;
+        color: #8a8f98;
+        background-color: #f7f8f8;
+        color-scheme: dark;
+        font-size: 0.6em;
+        height: 100%;
+        --main-color: #f7f8f8;
+        --text-color: #95a2b3;
+      
+    box-sizing: border-box;
+    }
+
     header{
-        font-size: 1.3rem;
+        font-size: 0.6rem;
     }
     .welcometext{
-        font-size: 1.3em;
+        font-size: 1em;
     }
+    .main_area{
+        margin-top: 5em;
+    }
+    .firstpage{
+        padding: 0;
+    }
+    .firstpage h2{
+        margin-top: 0;
+        padding-top: 1em;
+    }
+    .manager{
+        margin: 0;
+        margin-bottom: 1em;
+    }
+    .space{
+        flex-direction: column;
+    }
+    .message{
+        padding: 0;
+        font-size: 1.5em;
+    }
+    .msg p{
+        color: var(--main-color);
+    }
+    .informationbox{
+        flex-direction: column;
+    }
+    .part1{
+        width: calc(100% - 1.2em) ;
+    }
+    .part2{
+        width: calc(100% - 0.1em);
+    }
+    .fasintro h4{
+        font-size: 2em;
+    }
+    .elecintro h4{
+        margin: 0;
+        color: #a67b5b;
+        font-size: 2em;
+    }
+    .buildingintro h4{
+        color: #6fcbcb;
+        font-size: 2em;
+    }
+    .Weidingintro h4{
+        color: #2a52be;
+        font-size: 2em;
+        margin: 0;
+    }
+    .emojie{
+        position: relative;
+        height: 8.6vmin;
+        top: 0.9em;
+    }
+    .dept5 h4{
+        margin: 0;
+        color:#eeff1b;
+        font-size: 2em;
+    }
+    .dept6 h4{
+        color: #2a52be;
+        margin: 0;
+        font-size: 2em;
+    }
+    .dept7 h4{
+        color: #87ceeb;
+        font-size: 2em;
+    }
+    .dept8 h4{
+        color: #cf3476;
+        font-size: 2em;
+    }
+    .tweet_box{
+        width: calc(50.33% - 1.2em);
+    }
+    .log_part{
+        font-size: 0.56em;
+    }
+    .tweet1{
+        padding: 0;
+    }
+    .log_part h3{
+        font-size: 0.3em;
+    }
+
+    /* At departments level */
+    
 }
 
 @media(min-width:25em){
