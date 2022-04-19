@@ -21,6 +21,9 @@
   --main-color: #f7f8f8;
   --text-color: #95a2b3;
 }
+*, *::before, *::after{
+  box-sizing: inherit;
+}
 /* heading of the page */
 header {
   position: sticky;
@@ -191,6 +194,7 @@ li a {
 /* oferes that is availble at the school section*/
 .offers {
   padding-top: 3em;
+  background-image: url(/social_media/Background.png);
 }
 .msg {
   text-align: center;
@@ -205,6 +209,7 @@ li a {
   margin: 0.5em;
   flex-wrap: wrap;
   flex-basis: 35%;
+  flex: 1;
 }
 /* each program that we offering */
 .program {
@@ -260,4 +265,50 @@ li a {
 .motor {
   font-weight: 800;
   font-size: 2em;
+}
+/* footer column */
+footer {
+  display: flex;
+  width: 100%;
+  flex: 2;
+  background-color: #e7feff;
+  backdrop-filter: blur(5px);
+  height: 5em;
+  border: 2px solid transparent;
+}
+/* Social media */
+.contact {
+  display: flex;
+  flex-direction: row;
+}
+.contact img {
+  margin: 0 1em 0 1em;
+}
+.social {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  margin-right: 1.5em;
+}
+.social i {
+  margin: 0 1rem;
+}
+.fa-youtube {
+  color: red;
+}
+.log_part {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1.5em;
+}
+.foot {
+  height: 10vmin;
+  border-radius: 50%;
+}
+.log_part > h3 {
+  margin: auto 0;
+  padding: 0 0 0 0.55em;
+  font-size: 1.5em;
+  line-height: 1;
 }
