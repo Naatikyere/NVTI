@@ -52,7 +52,6 @@ a:hover {
   align-items: center;
   height: 4.1em;
   display: flex;
-  font-size: 0.857em;
   background: var(--main-color);
 }
 .dept p {
@@ -89,14 +88,12 @@ li a {
 }
 /* nav task bar text */
 .welcometext {
-  font-size: 1.4em;
   line-height: 1.2;
   margin: auto 0;
   cursor: pointer;
   text-align: center;
   text-transform: capitalize;
   font-weight: 900;
-  background: linear-gradient(90deg, hsl(), rgb(166, 231, 248));
 }
 
 /* the main body of the wed page*/
@@ -104,7 +101,6 @@ li a {
   display: flex;
   width: 100%;
   flex-direction: column;
-  margin-top: 13em;
 }
 /* HOD words for deptment */
 .sir_ruby {
@@ -112,9 +108,6 @@ li a {
   float: left;
   padding-right: 1.5em;
   border-radius: 2em 0;
-}
-.main {
-  padding: 1em;
 }
 .HOD_side {
   line-height: 1.4;
@@ -135,13 +128,13 @@ li a {
 }
 /* how we work section */
 .how_we {
-  background-color: #f7f8f8;
+ /* background-color: #f7f8f8;
   padding-top: 2.3em;
-  padding-bottom: 2em;
+  padding-bottom: 2em;*/
 }
-.how {
+/*.how {
   padding: 0.8em;
-}
+}*/
 .how_we h2 {
   text-align: center;
   text-transform: uppercase;
@@ -149,7 +142,7 @@ li a {
   margin-bottom: 3.4em;
 }
 .explaining {
-  display: flex;
+ /* display: flex;*/
   flex-direction: row;
   flex: 1;
   margin-bottom: 5.5em;
@@ -169,14 +162,10 @@ li a {
   display: flex;
   flex-direction: column;
 }
-.support_cont {
+/*.support_cont {
   padding: 1.3em;
-}
-.supervisor {
-  display: flex;
-  flex-direction: row-reverse;
-  flex: 1;
-}
+}*/
+
 /* text headings */
 .sub_text {
   font-size: 1.2em;
@@ -196,14 +185,13 @@ li a {
 }
 .msg {
   text-align: center;
-  font-size: 1em;
 }
 .msg > h3 {
   text-transform: uppercase;
   font-size: 1.4em;
 }
 .things {
-  width: calc(25% - 0.5em);
+ /* width: calc(25% - 0.5em); */
   margin: 0.5em;
   flex-wrap: wrap;
   flex-basis: 35%;
@@ -247,9 +235,7 @@ li a {
   justify-content: flex-end;
   flex: 1;
   background-color: rgba(240, 218, 191, 0.557);
-  margin: 0;
   text-align: center;
-  margin-top: 1.2em;
   font-weight: 700;
 }
 /* adverting ourself */
@@ -258,7 +244,6 @@ li a {
   font-size: 1em;
   background-color: bisque;
   text-align: center;
-  border-radius: 0.6em;
 }
 .motor {
   font-weight: 800;
@@ -275,10 +260,6 @@ footer {
   border: 2px solid transparent;
 }
 /* Social media */
-.contact {
-  display: flex;
-  flex-direction: row;
-}
 .contact img {
   margin: 0 1em 0 1em;
 }

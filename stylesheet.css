@@ -32,6 +32,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
+  margin-top: 2em;
 }
 
 .about {
@@ -60,8 +61,18 @@ a {
 }
 a:hover {
   cursor: pointer;
-  transition: 0.3s ease-out #8a8f98;
+  transition: 0.3s ease-out #0f141d;
+  padding: 0.5em;
+  background-color: aqua;
+  height: 0.5em;
+  border-radius: 0.5em;
+  scale: 2;
 }
+.dept ul li:hover{
+  background-color: #7f5230;
+  scale: 2;
+}
+
 .logo {
   border-radius: 50%;
   height: 12vmin;
@@ -72,7 +83,6 @@ a:hover {
   align-items: center;
   height: 4.1em;
   display: flex;
-  font-size: 0.857em;
   background: var(--main-color);
 }
 .dept p {
@@ -109,21 +119,22 @@ li a {
 }
 /* nav task bar text */
 .welcometext {
-  font-size: 1.4em;
+  /*font-size: 1.4em;*/
   line-height: 1.2;
   margin: auto 0;
   cursor: pointer;
+  color: aliceblue;
   text-align: center;
   text-transform: capitalize;
   font-weight: 900;
-  background: linear-gradient(90deg, hsl(), rgb(166, 231, 248));
+  background: linear-gradient(90deg, hsl(#7df), rgb(28, 62, 71));
 }
 /* first section of the page */
 .firstpage {
   opacity: 0.3;
   width: 100%;
   background-color: #fdd5b1;
-  background-image: url(/images/enterance.jpeg);
+  background-image: url(images/enterance.jpeg);
   background-position: center center;
   height: 70vmin;
   padding: 2em;
@@ -153,7 +164,6 @@ li a {
   width: 100%;
 }
 .msg {
-  font-size: 1em;
   line-height: 0.9em;
   text-transform: capitalize;
 }
@@ -278,6 +288,7 @@ li a {
 .quickfind {
   background-color: #7f5230;
   width: 98%;
+  font-size: small;
   border-radius: 1.5em 1em 1em 0;
   margin: 1.2em 2em 0 0.4em;
 }
@@ -352,7 +363,7 @@ h4 {
   height: 60vmin;
 }
 .dept4 {
-  height: 60vmin;
+
 }
 
 .dept5 {
@@ -361,13 +372,41 @@ h4 {
 .dept6 {
   height: 60vmin;
 }
-.dept7 {
-  height: 60vmin;
+ /* Everything about dept7*/
+    /*       START    */
+.dept7 h4{
+  margin-bottom: 0;
 }
-.dept8 {
-  height: 60vmin;
+/* Everything about department 8 */
+/*     START   */
+#offood{
+  background-color: #9744db;
+  padding: 0 0.5em;
+  color: black;
+  font-size: 1.5em;
 }
+
+.dept8 h4{
+  color: #cf3476;
+  font-size: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: 0;
+}
+.read_more{
+  text-align: center;
+}
+.read_more button{
+  border: none;
+  background-color: rgb(239, 239, 239);
+  padding: 1em;
+  border-radius: 0.5em;
+  color: black;
+}
+/*      END   */
+/* Department 8 ending */
 /* tweets section */
+
 .statements {
   font-size: 2em;
   color: #87ceeb;

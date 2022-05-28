@@ -35,6 +35,9 @@
         margin: 0;
         margin-bottom: 1em;
     }
+    p1{
+        padding: 0;
+    }
     .space{
         flex-direction: column;
     }
@@ -66,16 +69,41 @@
         color: #6fcbcb;
         font-size: 2em;
     }
-    .Weidingintro h4{
-        color: #2a52be;
-        font-size: 2em;
-        margin: 0;
-    }
     .emojie{
         position: relative;
         height: 8.6vmin;
         top: 0.9em;
     }
+     /* Everything about dept4*/
+    /*       START    */
+    .Weidingintro h4{
+        color: #2a52be;
+        font-size: 2em;
+        margin: 0;
+    }
+    .dept4{
+        font-size: 1.5em;
+        padding-bottom: 1.2em;
+    }
+    .dept4 h4{
+        font-size: 2em;
+    }
+
+    .dept4 p{
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+      .info4us ul{
+          font-size: 1.5em;
+          line-height: 1.4;
+      }
+      .info4us ul li{
+          padding: 0.5em;
+      }
+    /*      End   */
+    /* everything about dept4 */
     .dept5 h4{
         margin: 0;
         color:#eeff1b;
@@ -86,13 +114,39 @@
         margin: 0;
         font-size: 2em;
     }
+    /* Everything about dept7*/
+    /*       START    */
+    .dept7{
+        font-size: 1.5em;
+    }
     .dept7 h4{
         color: #87ceeb;
         font-size: 2em;
     }
-    .dept8 h4{
-        color: #cf3476;
-        font-size: 2em;
+    .dept7 p{
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+    /*Everything about department 8 */
+    /* START */
+    .dept8{
+        font-size:1.5em ;
+    }
+    .dept8 p{
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+    .formal_intro{
+        font-size: 1.4em;
+    }
+    /*      END    */
+    /* Department 8 ending */
+    .tweets{
+        margin-top: 6em;
     }
     .tweet_box{
         width: calc(50.33% - 1.2em);
@@ -108,9 +162,123 @@
     }
 
     /* At departments level */
+
+    /* About Us section for responsiveness */
+    /*    START    */
+
+    .us{
+        margin: 0; !important
+    }
+    .workspace{
+        margin: 0;
+    }
+    .version_control{
+        padding-bottom: 2em;
+        border-radius: 1em;
+    }
+    .our_story{
+        padding: 1em;
+    }
+    .our_story h2{
+        margin-top: 1.2em;
+    }
+    .history{
+        line-height: 1.4;
+        font-size:1.6em;
+    }
+    .misvis{
+        flex-direction: column;
+    }
+    .mission{
+        padding-right: 0;
+    }
+    .valus p{
+        font-size: 1.2em;
+    }
+    .valus ol{
+        padding-left: 0;
+        font-size: 1.4em;
+    }
+    .mission_text{
+        font-size: 1.5em;
+    }
+    .vision{
+        font-size: 2em;
+    }
+
+    .points li{
+        margin-left: 2em;
+    }
+    /* END */
+
+    /* Everything about information Technology */
+    /*         START      */
+    .dept{
+        font-size: 0.42em;
+    }
+    .offers{
+        border-radius: 0 0 0.5em 0.5em;
+    }
+
+    .supervisor{
+        display: block;
+
+    }
+    .dev_pic{
+        width: 60vmin;
+    }
+    .things{
+        width: 100%;
+    }
+    .how_we{
+        padding-top: 0;
+    }
+    .support_cont{
+        padding: 0;
+    }
+    .msg{
+        font-size: 1.5em;
+    }
+    .duration{
+        margin-top: -1.2em;
+        padding: 0.15em;
+        border-radius: 0 0 0.3em 0.3em;
+    }
+    .one{
+        margin-top: -3.5em;
+    }
+    .two{
+        margin-top: -0.1em;
+        padding: 0.3em;
+    }
+    .three{
+        margin: -0.1em;
+    }
+    .advert{
+        padding-bottom: 1.2em;
+        border-radius: 0 0 0.5em 0.5em;
+    }
+    .advert p{
+        font-size: 1.3em;
+    }
+
+    .contact{
+        width: 20px;
+    }
+    .contact p{
+        font-size: 1em;
+        display: inline-block;
+        }
+        .cont{
+            font-size: 0.5em;
+        }
+
+
+    /*       END    */
     
 }
 
 @media(min-width:25em){
+
 
 }
