@@ -60,20 +60,39 @@
     .fasintro h4{
         font-size: 2em;
     }
+      /* Everything about dept3*/
+    /*       START    */
+    
     .elecintro h4{
         margin: 0;
         color: #a67b5b;
         font-size: 2em;
     }
+    .building{
+        font-size: 2em;
+    }
+    .forbuilding{
+        font-size: 1.5em;
+    }
     .buildingintro h4{
         color: #6fcbcb;
-        font-size: 2em;
+        font-size: 2.5em;
+        margin: 0;
     }
     .emojie{
         position: relative;
         height: 8.6vmin;
         top: 0.9em;
     }
+    .dept3 p{
+        text-align: center;
+        font-size: 1.7em;
+        margin-top: 0.2em;
+        margin-bottom: 0.2em;
+      }
+      .tellus_building{
+          font-size: 1.6em;
+      }
      /* Everything about dept4*/
     /*       START    */
     .Weidingintro h4{
@@ -95,6 +114,8 @@
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
+
+      /*        END   */
       .info4us ul{
           font-size: 1.5em;
           line-height: 1.4;
@@ -210,39 +231,9 @@
     .dept{
         font-size: 0.42em;
     }
-    .fullpage{
+    .fullhouse{
         display: none;
     }
-    .bugger{
-        position: relative;
-        left: 55em;
-      }
-      .menu{
-        font-size: 4em;
-        border: none;
-        background-color: transparent;
-        color: black;
-        position: absolute;
-        top: -0.1em;
-        border: 0;
-        left: 4em;
-        background-color: lightblue;
-        border-radius: 0.3em;
-        text-indent: 5em;
-        overflow:hidden;
-        white-space: nowrap;
-        width: 2em;
-        height: 2em;
-      }
-      .menu::after{
-        top: -0.38em;
-        left: 0.18em;
-        position: absolute;
-        display: block;
-        content: "\2261";
-        font-size: 2em;
-        text-indent: 0;
-      }
     .offers{
         border-radius: 0 0 0.5em 0.5em;
     }

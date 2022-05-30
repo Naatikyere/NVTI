@@ -66,15 +66,45 @@ a:hover {
   height: 12vmin;
 }
 .dept {
-  justify-content: flex-end;
+  font-size: 0.7em;
   align-items: center;
-  height: 4.1em;
-  display: flex;
+  height: 7.1em;
   flex-direction: row;
-  font-size: 0.857em;
   background: var(--main-color);
-  flex-grow: 1;
   align-items: center;
+}
+.bout{
+  font-size: 1.7em;
+}
+.bugger{
+  position: relative;
+  left: 55em;
+}
+.menu{
+  font-size: 4em;
+  border: none;
+  background-color: transparent;
+  color: black;
+  position: absolute;
+  top: -0.1em;
+  border: 0;
+  left: 4em;
+  background-color: lightblue;
+  border-radius: 0.3em;
+  text-indent: 5em;
+  overflow:hidden;
+  white-space: nowrap;
+  width: 2em;
+  height: 2em;
+}
+.menu::after{
+  top: -0.38em;
+  left: 0.18em;
+  position: absolute;
+  display: block;
+  content: "\2261";
+  font-size: 2em;
+  text-indent: 0;
 }
 .dept p {
   justify-content: flex-start;
@@ -282,7 +312,6 @@ footer {
   backdrop-filter: blur(5px);
   height: 5em;
   border: 2px solid transparent;
-  position: ;
 }
 /* Social media */
 .social {
