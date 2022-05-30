@@ -82,7 +82,6 @@ a:hover {
   flex-direction: row;
   align-items: center;
   height: 4.1em;
-  display: flex;
   background: var(--main-color);
 }
 .dept p {

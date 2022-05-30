@@ -151,14 +151,8 @@
     .tweet_box{
         width: calc(50.33% - 1.2em);
     }
-    .log_part{
-        font-size: 0.56em;
-    }
     .tweet1{
         padding: 0;
-    }
-    .log_part h3{
-        font-size: 0.3em;
     }
 
     /* At departments level */
@@ -167,7 +161,7 @@
     /*    START    */
 
     .us{
-        margin: 0; !important
+        margin: 0; 
     }
     .workspace{
         margin: 0;
@@ -216,6 +210,39 @@
     .dept{
         font-size: 0.42em;
     }
+    .fullpage{
+        display: none;
+    }
+    .bugger{
+        position: relative;
+        left: 55em;
+      }
+      .menu{
+        font-size: 4em;
+        border: none;
+        background-color: transparent;
+        color: black;
+        position: absolute;
+        top: -0.1em;
+        border: 0;
+        left: 4em;
+        background-color: lightblue;
+        border-radius: 0.3em;
+        text-indent: 5em;
+        overflow:hidden;
+        white-space: nowrap;
+        width: 2em;
+        height: 2em;
+      }
+      .menu::after{
+        top: -0.38em;
+        left: 0.18em;
+        position: absolute;
+        display: block;
+        content: "\2261";
+        font-size: 2em;
+        text-indent: 0;
+      }
     .offers{
         border-radius: 0 0 0.5em 0.5em;
     }
@@ -268,10 +295,16 @@
     .contact p{
         font-size: 1em;
         display: inline-block;
-        }
-        .cont{
+    }
+     .cont{
             font-size: 0.5em;
-        }
+     }
+     .log_part{
+         font-size: 0.8em;
+     }
+     .log_part h3{
+        font-size: 0.3em;
+    }
 
 
     /*       END    */
