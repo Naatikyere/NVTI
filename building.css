@@ -1,3 +1,14 @@
 .burgerho{
     top: -7em;
 }
+.main_area{
+    background-color: azure;
+    width: 26em;
+    height: 30em;
+    border-radius: 50%;
+}
+.zakaria{
+    height:33vh ;
+    border-radius: 10%;
+    width: 60vmin;
+}

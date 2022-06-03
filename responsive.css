@@ -22,7 +22,11 @@
         left: 37.4em;
     }
     .welcometext{
-        font-size: 1em;
+        font-size: 1.4em;
+    }
+    .Home{
+        margin: 0;
+        font-size: 3em;
     }
     .main_area{
         margin-top: 5em;
@@ -62,6 +66,12 @@
     }
     /*   Everything fashion Department */
     /*     START   */
+    .fashioncourse{
+        font-size: 1.6em;
+    }
+    .fashioncourse ul li{
+        line-height: 1.3;
+    }
     .tellus_fastion{
         font-size: 1.9em;
     }
@@ -115,6 +125,13 @@
         color: #6fcbcb;
         font-size: 2.5em;
         margin: 0;
+    }
+    .main_area{
+        position: relative;
+    }
+    .zakaria{
+        position: absolute;
+        left: 5em;
     }
     .emojie{
         position: relative;
@@ -362,11 +379,23 @@
     /*       END    */
     
 }
-@media(min-width:19em) and ( max-width:20em){
-    
+@media only screen and (min-width:22.5em) and (max-width:24.3em){
+    .bugger{
+        left: 46.9em;
+    }
+}
+@media only screen and (min-width:25.75em) and ( max-width:25.975em){
+    .bugger{
+        left: 53.6em;
+    }
+}
+@media only screen and (min-width:24.35em) and (max-width:25.66em){
+    .bugger{
+        left: 49.8em;
+    }
 }
 
-@media only screen and (min-width:25em){
+@media only screen and (min-width:26em){
 .bugger{
     left: 55.6em;
 }
