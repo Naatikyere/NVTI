@@ -38,6 +38,11 @@
         margin-top: 0;
         padding-top: 1em;
     }
+    .firstpage h3{
+        color: #27045b;
+    font-size: 4em;
+    text-align: center;
+    }
     .manager{
         margin: 0;
         margin-bottom: 1em;
@@ -52,6 +57,12 @@
         padding: 0;
         font-size: 1.5em;
     }
+    .read_more{
+    text-align: center;
+    width: 100px;
+    position: relative;
+    left: 30%;
+    }
     .msg p{
         color: var(--main-color);
     }
@@ -63,6 +74,9 @@
     }
     .part2{
         width: calc(100% - 0.1em);
+    }
+    .weallasone{
+        padding: 0 0.5em;
     }
     /*   Everything fashion Department */
     /*     START   */
@@ -122,7 +136,7 @@
         font-size: 1.5em;
     }
     .buildingintro h4{
-        color: #6fcbcb;
+        color: #e33e5a;
         font-size: 2.5em;
         margin: 0;
     }
@@ -198,6 +212,12 @@
     }
     /*   END   */
 
+    /* Everything dept 5 */
+    /*    START  */
+    .tellus_ict{
+        font-size:1.3em ;
+    }
+
     /* Everything dept6 */
     /* START */
 
@@ -221,7 +241,7 @@
         font-size: 1.5em;
     }
     .dept7 h4{
-        color: #87ceeb;
+        color: #52575d;
         font-size: 2em;
     }
     .dept7 p{
@@ -229,6 +249,9 @@
         font-size: 1.2em;
         margin-top: 0.2em;
         margin-bottom: 0.2em;
+      }
+      .tellus_motorpeople{
+          font-size: 1.3em;
       }
     /*Everything about department 8 */
     /* START */
@@ -241,19 +264,39 @@
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
+      .tellus_foodpeople{
+          font-size: 1.3em;
+      }
     .formal_intro{
         font-size: 1.4em;
     }
     /*      END    */
     /* Department 8 ending */
+    .statements{
+        margin-bottom: 2.4em;
+    }
     .tweets{
         margin-top: 6em;
     }
     .tweet_box{
-        width: calc(50.33% - 1.2em);
+        width: 90%;
+        margin-bottom: 4.7em;
+        display: flex;
+        flex-direction: column;
+    }
+    .tweet_box > div{
+        height: 4em;
+    }
+    .tweet_box p{
+        flex: 1;
+        font-size: 1.5em;
+    text-align: center;
     }
     .tweet1{
+        position: relative;
         padding: 0;
+        align-items: center;
+        flex-flow: column;
     }
 
     /* At departments level */
@@ -368,7 +411,7 @@
             font-size: 0.5em;
      }
      .log_part{
-         font-size: 2.3em;
+         font-size: 2.48em;
          flex-basis: 60%;
      }
      .log_part h3{
@@ -379,14 +422,16 @@
     /*       END    */
     
 }
+@media only screen and (width:20em){
+    .bugger{
+        left: 37.4em;
+        top: 0.6em;
+        font-size: 0.9em;
+    }
+}
 @media only screen and (min-width:22.5em) and (max-width:24.3em){
     .bugger{
         left: 46.9em;
-    }
-}
-@media only screen and (min-width:25.75em) and ( max-width:25.975em){
-    .bugger{
-        left: 53.6em;
     }
 }
 @media only screen and (min-width:24.35em) and (max-width:25.66em){
@@ -394,7 +439,11 @@
         left: 49.8em;
     }
 }
-
+@media only screen and (min-width:25.75em) and ( max-width:25.975em){
+    .bugger{
+        left: 53.6em;
+    }
+}
 @media only screen and (min-width:26em){
 .bugger{
     left: 55.6em;
@@ -417,6 +466,12 @@
     .bugger{
         display: none;
     }
+    .informationbox{
+        flex-direction: row;
+    }
+    .quickfind{
+        height: 94%;
+    }
     .fullpage{
         display: block;
     }
@@ -432,6 +487,7 @@
     }
     .dept{
         display: flex;
+        height: 13em;
     }
     .fullpage{
         font-size:1.8em ;
@@ -451,6 +507,22 @@
         font-size: 0.55em;
         margin-right: 0.8em;
         line-height: 1.4;
+    }
+    .main_area{
+        margin-top: 21em;
+    }
+    .firstpage > h3{
+    text-align: center;
+    margin: 1em 2em;
+    font-size: 10em;
+    color: #301551;
+    }
+    .firstpage > h2{
+        font-size: 5em;
+    }
+    .dept1{
+        display: flex;
+        flex-direction: row;
     }
     footer{
         height: 100%;

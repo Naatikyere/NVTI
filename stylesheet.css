@@ -175,7 +175,7 @@ li a {
 }
 /* first section of the page */
 .firstpage {
-  opacity: 0.3;
+  opacity: 0.5;
   width: 100%;
   background-color: #fdd5b1;
   background-image: url(images/enterance.jpeg);
@@ -407,10 +407,6 @@ background-size: cover;
 .dept4 {
 
 }
-
-.dept5 {
-  height: 60vmin;
-}
 .dept6 {
   height: 60vmin;
 }
@@ -455,7 +451,7 @@ background-size: cover;
 
 .statements {
   font-size: 2em;
-  color: #87ceeb;
+  color: #effbff;
   text-align: center;
   padding-top: 3rem;
   font-weight: 700;
@@ -471,6 +467,23 @@ background-size: cover;
   width: 100%;
   padding: 2em;
   flex: 1;
+}
+.bg-img{
+  position: relative;
+  background:linear-gradient(55deg, #880088, #cc3f47, #f09f33) ;
+  height: 110px;
+  width: 50%;
+  border-radius: 50%;
+  top: -7em;
+  left: 5em;
+}
+.kings{
+  position: absolute;
+  width: 100%;
+  padding: 0.5em;
+  height: 113px;
+  top: -0.1em;
+  border-radius: 90%;
 }
 .tweet_box {
   background-color: #87ceeb;
