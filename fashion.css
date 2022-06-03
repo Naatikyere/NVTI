@@ -1,0 +1,13 @@
+.fashioncourse{
+    display: flex;
+    flex-direction: row;
+}
+.allone{
+    margin-top: 9em;
+}
+.bugger{
+    left: 37.4em;
+}
+.menu{
+    font-size: 3em;
+}

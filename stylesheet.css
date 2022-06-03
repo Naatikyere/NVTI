@@ -33,6 +33,7 @@
   width: 100%;
   flex-direction: column;
   margin-top: 2em;
+  padding-top: 2em;
 }
 
 .about {
@@ -81,11 +82,20 @@ a:hover {
   justify-content: flex-end;
   flex-direction: row;
   align-items: center;
-  height: 4.1em;
+  height: 7.4em;
   background: var(--main-color);
 }
 .fullpage{
   display: none;
+}
+.Home{
+  font-size: 4em;
+  padding-top: 0.3em;
+}
+.Home a{
+  margin-left: 0.5em;
+  color: #7df;
+  font-weight:600;
 }
 .bugger{
   position: relative;
@@ -109,18 +119,14 @@ a:hover {
   height: 2em;
 }
 .menu::after{
-  top: -0.38em;
-  left: 0.18em;
+  /*top: -0.38em;*/
+  top: -0.07em;
+  left: 0.2em;
   position: absolute;
   display: block;
   content: "\2261";
   font-size: 2em;
   text-indent: 0;
-}
-.dept p {
-  justify-content: flex-start;
-  flex-grow: 2;
-  margin: 1.5em 0 1.5em 1em;
 }
 .dept ul {
   display: flex;
@@ -159,7 +165,6 @@ li a {
   text-align: center;
   text-transform: capitalize;
   font-weight: 900;
-  background: linear-gradient(90deg, hsl(#7df), rgb(28, 62, 71));
 }
 /* first section of the page */
 .firstpage {
@@ -345,10 +350,6 @@ h5 {
   border-bottom: 1px solid;
   padding: 0.5em 1em;
 }
-
-.dept1 {
-  height: 60vmin;
-}
 h4 {
   text-align: center;
   font-size: 2.5em;
@@ -357,6 +358,24 @@ h4 {
   color: var(--main-color);
   font-weight: 700;
   padding-top: 0.5em;
+}
+/* everything about fastion */
+/*     START   */
+.fashioncourse{
+  font-size: 1.2em;
+}
+.fashioncourse ul{
+  padding: 0;
+  list-style: none;
+}
+.fashioncourse ul li{
+  margin: 0.5em 1.2em;
+}
+.practice{
+  font-size: 1.55em;
+}
+.practice li{
+  padding: 0.5em 0;
 }
 /*p {
   position: absolute;
@@ -488,7 +507,7 @@ footer {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  flex-basis: 50%;
+  flex-basis: 40%;
 }
 .social i {
   margin: 0 1rem;
@@ -500,7 +519,7 @@ footer {
 .log_part {
   display: flex;
   flex-direction: row;
-  margin-left: 1.5em;
+  margin-left: 0.2em;
 }
 .foot {
   height: 10vmin;

@@ -1,0 +1,6 @@
+.burgerho{
+    top: -7em;
+}
+.menu::after{
+    top: -0.38em;
+}

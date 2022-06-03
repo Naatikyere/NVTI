@@ -18,6 +18,9 @@
     header{
         font-size: 0.6rem;
     }
+    .bugger{
+        left: 37.4em;
+    }
     .welcometext{
         font-size: 1em;
     }
@@ -57,16 +60,50 @@
     .part2{
         width: calc(100% - 0.1em);
     }
-    .fasintro h4{
-        font-size: 2em;
+    /*   Everything fashion Department */
+    /*     START   */
+    .tellus_fastion{
+        font-size: 1.9em;
     }
+    .info4us_fashion{
+        font-size: 1.5em;
+    }
+    .teachers{
+        padding: 0;
+        font-size: 1.6em;
+    }
+    .teachers li{
+        text-transform: none;
+    }
+    .teachers li ul{
+        font-size: 1.95em;
+    }
+    .fasintro p{
+        font-size:2.2em;
+        text-align: center;
+        margin: 0.2em;
+    }
+    .cong{
+        font-size: 1.5em;
+    }
+    .fasintro h4{
+        font-size: 3em;
+    }
+
+    /*     END    */
+
       /* Everything about dept3*/
     /*       START    */
     
     .elecintro h4{
         margin: 0;
         color: #a67b5b;
+        font-size: 2.8em;
+    }
+    .elecintro p{
         font-size: 2em;
+        text-align: center;
+        margin: 0.2em;
     }
     .building{
         font-size: 2em;
@@ -86,12 +123,11 @@
     }
     .dept3 p{
         text-align: center;
-        font-size: 1.7em;
         margin-top: 0.2em;
         margin-bottom: 0.2em;
       }
       .tellus_building{
-          font-size: 1.6em;
+          font-size: 1.8em;
       }
      /* Everything about dept4*/
     /*       START    */
@@ -107,6 +143,9 @@
     .dept4 h4{
         font-size: 2em;
     }
+    .tellus_welding{
+        font-size: 1.25em;
+    }
 
     .dept4 p{
         text-align: center;
@@ -115,7 +154,6 @@
         margin-bottom: 0.2em;
       }
 
-      /*        END   */
       .info4us ul{
           font-size: 1.5em;
           line-height: 1.4;
@@ -125,16 +163,41 @@
       }
     /*      End   */
     /* everything about dept4 */
+
+    /* Everything depat5 */
+    /*   START */
+    .dept5{
+        font-size: 1.5em;
+    }
     .dept5 h4{
         margin: 0;
         color:#eeff1b;
         font-size: 2em;
     }
+    .dept5 p{
+        text-align: center;
+        font-size: 1.3em;
+        margin: 0.2em;
+    }
+    /*   END   */
+
+    /* Everything dept6 */
+    /* START */
+
+    .dept6{
+        font-size: 1.11em;
+    }
     .dept6 h4{
         color: #2a52be;
         margin: 0;
-        font-size: 2em;
+        font-size: 2.8em;
+    }   
+    .dept6 p{
+        margin: 0.2em;
+        font-size: 1.8em;
+        text-align: center;
     }
+    /* END */
     /* Everything about dept7*/
     /*       START    */
     .dept7{
@@ -228,9 +291,6 @@
 
     /* Everything about information Technology */
     /*         START      */
-    .dept{
-        font-size: 0.42em;
-    }
     .fullhouse{
         display: none;
     }
@@ -291,18 +351,86 @@
             font-size: 0.5em;
      }
      .log_part{
-         font-size: 0.8em;
+         font-size: 2.3em;
+         flex-basis: 60%;
      }
      .log_part h3{
-        font-size: 0.3em;
+        font-size: 0.4em;
     }
 
 
     /*       END    */
     
 }
+@media(min-width:19em) and ( max-width:20em){
+    
+}
 
-@media(min-width:25em){
-
-
+@media only screen and (min-width:25em){
+.bugger{
+    left: 55.6em;
+}
+.welcometext{
+    font-size: 1.8em;
+}
+.log_part{
+    font-size: 3.79em;
+    flex-basis: 70%;
+}
+.social{
+    flex-basis: 30%;
+}
+}
+@media only screen and (min-width:48em){
+    .welcometext{
+        font-size: 3.54em;
+    }
+    .bugger{
+        display: none;
+    }
+    .fullpage{
+        display: block;
+    }
+    .log_part{
+        font-size: 3.5em;
+    }
+    .Home{
+    font-size: 3em;
+    margin-bottom: 1.2em;
+    margin-left: 0.5em;
+    padding-top: 0;
+    margin-top: 0;
+    }
+    .dept{
+        display: flex;
+    }
+    .fullpage{
+        font-size:1.8em ;
+    }
+    .fullpage ul{
+        padding: 0;
+        padding-top: 1.6em;
+        margin: 0;
+        font-size: 1.6em;
+    }
+    .fullpage ul li{
+        flex: 1;
+        padding: 0.5em;
+        width: 11.1%;
+        margin-left: 0.8em;
+        text-align: end;
+        font-size: 0.55em;
+        margin-right: 0.8em;
+        line-height: 1.4;
+    }
+    footer{
+        height: 100%;
+        font-size: 2em;
+    }
+    .social a{
+        padding-right: 1em;
+    }
+    .log_part{
+        font-size: 3.4em;
+    }
 }

@@ -49,14 +49,14 @@ a:hover {
 .dept {
   flex-direction: row;
   align-items: center;
-  height: 7.1em;
+  height: 8.1em;
   overflow: hidden;
+  font-size: 0.42em;
   background: var(--main-color);
 }
 .dept p {
   justify-content: flex-start;
   flex-grow: 2;
-  margin: 1.5em 0 1.5em 1em;
 }
 .dept ul {
   display: flex;
@@ -68,6 +68,7 @@ a:hover {
 .bugger{
   position: relative;
   left: 55em;
+  top: -7em;
 }
 .menu{
   font-size: 4em;
@@ -121,6 +122,7 @@ li a {
   margin: auto 0;
   cursor: pointer;
   text-align: center;
+  font-size: 0.67em;
   text-transform: capitalize;
   font-weight: 900;
 }
@@ -279,10 +281,9 @@ li a {
 footer {
   display: flex;
   width: 100%;
-  flex: 2;
   background-color: #e7feff;
   backdrop-filter: blur(5px);
-  height: 5em;
+  height: 3em;
   border: 2px solid transparent;
 }
 /* Social media */
@@ -307,6 +308,7 @@ footer {
   flex-direction: row;
   margin-left: 1.5em;
   margin: auto;
+  font-size: 0.55em;
 }
 .foot {
   height: 10vmin;
