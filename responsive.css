@@ -80,6 +80,13 @@
     }
     /*   Everything fashion Department */
     /*     START   */
+    .dept1{
+        flex-direction: column;
+    }
+    .dept1 div{
+        flex-basis: 50%;
+
+    }
     .fashioncourse{
         font-size: 1.6em;
     }
@@ -137,7 +144,7 @@
     }
     .buildingintro h4{
         color: #e33e5a;
-        font-size: 2.5em;
+        font-size: 2.8em;
         margin: 0;
     }
     .main_area{
@@ -348,6 +355,11 @@
         margin-left: 2em;
     }
     /* END */
+    .inside{
+        width: 100%;
+        height: 100%;
+        border-radius: 0.5em;
+    }
 
     /* Everything about information Technology */
     /*         START      */
@@ -446,7 +458,7 @@
 }
 @media only screen and (min-width:26em){
 .bugger{
-    left: 55.6em;
+    left: 49.6em;
 }
 .welcometext{
     font-size: 1.8em;
@@ -461,7 +473,7 @@
 }
 @media only screen and (min-width:48em){
     .welcometext{
-        font-size: 3.54em;
+        font-size: 2.6em;
     }
     .bugger{
         display: none;
@@ -475,6 +487,12 @@
     .fullpage{
         display: block;
     }
+    .log{
+        height: 6em;
+    }
+    .logo{
+        height: 100%;
+    }
     .log_part{
         font-size: 3.5em;
     }
@@ -487,14 +505,12 @@
     }
     .dept{
         display: flex;
-        height: 13em;
     }
     .fullpage{
         font-size:1.8em ;
     }
     .fullpage ul{
         padding: 0;
-        padding-top: 1.6em;
         margin: 0;
         font-size: 1.6em;
     }
@@ -523,6 +539,72 @@
     .dept1{
         display: flex;
         flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept1 div{
+        flex-basis: 50%;
+    }
+    .dept2{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept2 div{
+        flex-basis: 50%;
+    }
+    .dept3{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept3 div{
+        flex-basis: 50%;
+    }
+    .dept4{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept4 div{
+        flex-basis: 50%;
+    }
+    .dept5{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept5 div{
+        flex-basis: 50%;
+    }
+    .dept6{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept6 div{
+        flex-basis: 50%;
+    }
+    .dept7{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept7 div{
+        flex-basis: 50%;
+    }
+    .dept8{
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 2em;
+    }
+    .dept8 div{
+        flex-basis: 50%;
+    }
+    .ha{
+        height: 30em;
+    }
+    .hb{
+        height: 24;
     }
     footer{
         height: 100%;
@@ -533,5 +615,27 @@
     }
     .log_part{
         font-size: 3.4em;
+    }
+    .tweet1{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+    .tweet_box{
+        width: 30%;
+    }
+    .classroom_pic{
+        background-color: #e33e5a;
+        border-radius: 0.5em;
+        flex-basis: 50%;
+    }
+    .inside{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: 0.5em;
+        border-radius: 0.5em;
     }
 }

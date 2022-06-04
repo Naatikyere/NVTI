@@ -393,7 +393,7 @@ background-size: cover;
   padding: 0.5em 0;
 }
 .dept2 {
-  height: 60vmin;
+
 }
 .buildingpeople{
   background-image: url(background/BG.svg);
@@ -403,12 +403,6 @@ background-size: cover;
   background-size: auto;
   background-position: center;
   padding: 0.3em;
-}
-.dept4 {
-
-}
-.dept6 {
-  height: 60vmin;
 }
  /* Everything about dept7*/
     /*       START    */
