@@ -4,3 +4,29 @@
 .menu::after{
     top: -0.38em;
 }
+.formachinepeople{
+    padding-top:1.5em ;
+    background-color: #cda5a1;
+    width: 250px;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 6em;
+}
+.Philip{
+    position: relative;
+    height: 200px;
+    border-radius: 10%;
+    width: 200px;
+    left: 1.6em;
+    top: -3em;
+}
+.hod_details{
+    padding: 0 1em;
+}
+.hod_details span{
+    font-weight: 900;
+}
+.hod_details div{
+    display: flex;
+    flex-direction: row;
+}

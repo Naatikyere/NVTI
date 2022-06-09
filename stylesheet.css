@@ -195,7 +195,7 @@ li a {
 }
 /* section for management */
 .manager {
-  margin: 2em;
+  margin: 0 auto;
   background-color: #e1e1e1;
   border-radius: 1.5em;
   width: 90%;
@@ -223,7 +223,7 @@ li a {
 .message {
   padding: 0.6em;
   font-size: 2em;
-  line-height: 0.5em;
+  line-height: 2;
   flex-grow: 1;
 }
 .mana {

@@ -4,3 +4,43 @@
 .menu::after{
     top: -0.38em;
 }
+.forweldingpeople{
+    padding-top:1.5em ;
+    background-color: #cda5a1;
+    width: 250px;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 6em;
+}
+.Ahoh{
+    position: relative;
+    height: 200px;
+    border-radius: 10%;
+    width: 200px;
+    left: 1.6em;
+    top: -3em;
+}
+.students_room{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    font-size: 5em;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+}
+.students_work{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    font-size: 5em;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+}
+.hod_details{
+    padding: 0 1em;
+}
+.hod_details span{
+    font-weight: 900;
+}
+.hod_details div{
+    display: flex;
+    flex-direction: row;
+}
