@@ -191,7 +191,6 @@ li a {
   text-align: center;
   font-weight: 900;
   color: hsl(230deg, 100%, 60%);
-  text-shadow: black;
   margin-top: 1em;
 }
 /* section for management */
@@ -199,6 +198,8 @@ li a {
   margin: 2em;
   background-color: #e1e1e1;
   border-radius: 1.5em;
+  width: 90%;
+  justify-content: center;
 }
 
 .space {

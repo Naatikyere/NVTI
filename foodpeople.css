@@ -1,3 +1,86 @@
-.burgerho{
-    top: -7em;
+.hod_details{
+    padding: 0 1em;
+}
+.hod_details span{
+    font-weight: 900;
+}
+.hod_details div{
+    display: flex;
+    flex-direction: row;
+}
+.forfoodpeople{
+    padding-top:1em ;
+    background-color: #cda5a1;
+    width: 250px;
+    border-radius: 1em;
+    margin: auto;
+    margin-top: 6em;
+}
+.Dedora{
+    position: relative;
+    height: 200px;
+    border-radius: 10%;
+    width: 200px;
+    left: 1.6em;
+    top: -3em;
+}
+
+
+.students_room{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    font-size: 5em;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+}
+.students_work{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    font-size: 5em;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+}
+.conclusion{
+    text-align: center;
+}
+
+
+@media only screen and (min-width:12em){
+    .burgerho{
+        top: -7em;
+    }
+    .info4us{
+        padding: 0 0.2em;
+        font-size: 1.2em;
+    }
+    .subject{
+        font-size: 1.4em;
+        text-align: center;
+    }
+    .subject1{
+        font-size: 1.4em;
+    }
+    .forfoodpeople{
+        margin-top: 4em;
+    }
+
+}
+@media only screen and (min-width:20em){
+.info4us{
+    font-size: 1.4em;
+}
+.subject{
+    font-size: 2em;
+}
+.subject1{
+    text-align: center;
+    font-size: 2em;
+}
+.depart_pic{
+    text-align: center;
+    font-size: 2em;
+}
+.forfoodpeople{
+    margin-top: 6em;
+}
 }

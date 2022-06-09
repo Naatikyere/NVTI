@@ -11,3 +11,60 @@
 .menu{
     font-size: 3em;
 }
+.forfashion{
+    background-color: #cda5a1;
+    width: 250px;
+    border-radius: 1em;
+    margin: auto;
+}
+.zakaria{
+    height: 200px;
+    border-radius: 10%;
+    width: 200px;
+    left: 0.7em;
+}
+.hod_details{
+    padding: 8.9em 1em 0 1em;
+}
+.hod_details span{
+    font-weight: 900;
+}
+.hod_details div{
+    display: flex;
+    flex-direction: row;
+}
+.students_room{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    font-size: 5em;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+}
+.students_work{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    font-size: 5em;
+    color: rgba(255,255,255,0.4);
+    text-transform: uppercase;
+}
+@media(min-width:12em)
+{
+    .container{
+        padding-top: 8em;
+    }
+    .burgerho{
+        left: 28em;
+        font-size: 1.2em;
+    }
+}
+@media(min-width:20em){
+    .burgerho{
+        left: 36em;
+        top: 0.59em;
+    }
+}
+@media(min-width:40em){
+    .info4us_fashion{
+        padding-top:0.6em ;
+    }
+}

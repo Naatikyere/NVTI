@@ -1,4 +1,4 @@
-@media(min-width:12em)
+@media only screen and (min-width:12em)
 {
     :root {
         box-sizing: border-box;
@@ -98,6 +98,10 @@
     }
     .info4us_fashion{
         font-size: 1.5em;
+        padding: 0 0.5em;
+    }
+    .cong{
+        padding: 0 0.5em;
     }
     .teachers{
         padding: 0;
@@ -136,6 +140,12 @@
         text-align: center;
         margin: 0.2em;
     }
+    .burgerho{
+        position: relative;
+        left: 37.4em;
+        top: -5.3em;
+        font-size: 0.9em;
+    }
     .building{
         font-size: 2em;
     }
@@ -151,8 +161,15 @@
         position: relative;
     }
     .zakaria{
+        margin: 0 1em;
         position: absolute;
-        left: 5em;
+        top: -5em;
+    }
+    .students_room{
+        font-size: 2.4em;
+    }
+    .students_work{
+        font-size: 2.4em;
     }
     .emojie{
         position: relative;
@@ -440,6 +457,12 @@
         top: 0.6em;
         font-size: 0.9em;
     }
+    .students_room{
+        font-size: 5em;
+    }
+    .student_work{
+        font-size: 5em;
+    }
 }
 @media only screen and (min-width:22.5em) and (max-width:24.3em){
     .bugger{
@@ -476,6 +499,9 @@
         font-size: 2.6em;
     }
     .bugger{
+        display: none;
+    }
+    .burgerho{
         display: none;
     }
     .informationbox{
@@ -527,11 +553,25 @@
     .main_area{
         margin-top: 21em;
     }
+    .forbuilding{
+        margin-top: 6em;
+        font-size: 1.7em;
+        width: 300px;
+    }
+    .zakaria{
+        left: 2em;
+    }
+    .building ul{
+        font-size: 1.6em;
+    }
     .firstpage > h3{
     text-align: center;
     margin: 1em 2em;
     font-size: 10em;
     color: #301551;
+    }
+    .peace{
+        font-size: 1.3em;
     }
     .firstpage > h2{
         font-size: 5em;
@@ -608,7 +648,7 @@
     }
     footer{
         height: 100%;
-        font-size: 2em;
+        font-size: 1.2em;
     }
     .social a{
         padding-right: 1em;
