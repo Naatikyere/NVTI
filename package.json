@@ -1,0 +1,22 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build-css":"node-sass --include-path scss/main.scss build/css/style.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naatikyere/NVTI.git"
+  },
+  "author": "Naatikyere Prosper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Naatikyere/NVTI/issues"
+  },
+  "homepage": "https://github.com/Naatikyere/NVTI#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
