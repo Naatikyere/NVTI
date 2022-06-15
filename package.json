@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "build-css":"node-sass --include-path scss/main.scss build/css/style.min.css"
+    "build-css":"node-sass css/scss/main.scss build/css/style.min.css"
   },
   "repository": {
     "type": "git",
