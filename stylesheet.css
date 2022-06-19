@@ -104,6 +104,13 @@ a:hover {
   color: #7df;
   font-weight:600;
 }
+.bot{
+  position: relative;
+}
+.bugger-electrical{
+  position: absolute;
+font-size: 1.2em;
+}
 .bugger{
   position: relative;
   left: 55em;
@@ -393,9 +400,44 @@ background-size: cover;
 .practice li{
   padding: 0.5em 0;
 }
-.dept2 {
+/* EVERYTHING ABOUT ELECTRICALS */
+/*    START */
+.telluselectric{
+  font-size: 2.5em;
+}
+.info4us_electrical{
+  font-size: 2.5em;
+  padding: 0 1.3em;
+}
+.toolset{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.7em;
+}
+.tools > h3{
+  text-align: center;
+}
+.list{
+  padding: 0;
+  flex: 1;
+  margin: 0;
+}
+.list > li{
+  line-height: 2;
+  font-size: 0.4em;
+}
+.hod_details{
+  font-size: 0.6em;
+}
+.forelectrical{
+    background-color: #5b5f97;
+    width: 250px;
+    border-radius: 1em;
+    margin: auto;
 
 }
+/* END */
+
 .buildingpeople{
   background-image: url(background/BG.svg);
   background-repeat: repeat;
@@ -463,6 +505,9 @@ background-size: cover;
   padding: 2em;
   flex: 1;
 }
+.tweet_box p{
+  margin: 0;
+}
 .bg-img{
   position: relative;
   background:linear-gradient(55deg, #880088, #cc3f47, #f09f33) ;
@@ -496,7 +541,6 @@ footer {
   flex: 2;
   background-color: #e7feff;
   backdrop-filter: blur(5px);
-  height: 5em;
   border: 2px solid transparent;
 }
 /* Social media */

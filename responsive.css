@@ -21,6 +21,10 @@
     .bugger{
         left: 37.4em;
     }
+    .bugger-electrical{
+        left: 61%;
+        top: 0.5em;
+    }
     .welcometext{
         font-size: 1.28em;
     }
@@ -125,6 +129,17 @@
     }
 
     /*     END    */
+    /* electrical department */
+    /* start */
+    .toolset{
+        flex-direction: column;
+    }
+    .info4us_electrical{
+        padding: 0 0.2em;
+    }
+
+
+    /* end */
 
       /* Everything about dept3*/
     /*       START    */
@@ -450,18 +465,20 @@
     /*       END    */
     
 }
-@media only screen and (width:20em){
+@media only screen and (min-width:20em){
     .bugger{
         left: 37.4em;
         top: 0.6em;
         font-size: 0.9em;
     }
+   
     .students_room{
         font-size: 5em;
     }
     .student_work{
         font-size: 5em;
     }
+   
 }
 @media only screen and (min-width:22.5em) and (max-width:24.3em){
     .bugger{
@@ -485,6 +502,9 @@
 .welcometext{
     font-size: 1.8em;
 }
+.toolset{
+    flex-direction: row;
+}
 .log_part{
     font-size: 3.79em;
     flex-basis: 70%;
@@ -498,6 +518,9 @@
         font-size: 2.6em;
     }
     .bugger{
+        display: none;
+    }
+    .bugger-electrical{
         display: none;
     }
     .burgerho{
