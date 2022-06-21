@@ -115,6 +115,24 @@ font-size: 1.2em;
   position: relative;
   left: 55em;
 }
+.dropdown{
+  display: none;
+}
+.bugger:hover .dropdown{
+  display: block;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 15px;
+  }
+  .drop{
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5em;
+  top: 2em;
+  font-size: 20px;
+  font-style: none;
+  font-display: auto;
+  }
 .menu{
   font-size: 4em;
   border: none;
@@ -142,7 +160,7 @@ font-size: 1.2em;
   font-size: 2em;
   text-indent: 0;
 }
-.dept ul {
+.full {
   display: flex;
   flex-direction: row;
   font-size: 1.5em;
@@ -402,13 +420,6 @@ background-size: cover;
 }
 /* EVERYTHING ABOUT ELECTRICALS */
 /*    START */
-.telluselectric{
-  font-size: 2.5em;
-}
-.info4us_electrical{
-  font-size: 2.5em;
-  padding: 0 1.3em;
-}
 .toolset{
   display: flex;
   flex-direction: row;

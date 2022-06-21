@@ -465,45 +465,23 @@
     /*       END    */
     
 }
-@media only screen and (min-width:20em){
-    .bugger{
-        left: 37.4em;
-        top: 0.6em;
-        font-size: 0.9em;
-    }
-   
+@media only screen and (min-width:20em){   
     .students_room{
-        font-size: 5em;
+        font-size: 3em;
     }
     .student_work{
-        font-size: 5em;
+        font-size: 3em;
     }
    
 }
-@media only screen and (min-width:22.5em) and (max-width:24.3em){
-    .bugger{
-        left: 46.9em;
-    }
-}
-@media only screen and (min-width:24.35em) and (max-width:25.66em){
-    .bugger{
-        left: 49.8em;
-    }
-}
-@media only screen and (min-width:25.75em) and ( max-width:25.975em){
-    .bugger{
-        left: 53.6em;
-    }
-}
 @media only screen and (min-width:26em){
-.bugger{
-    left: 49.6em;
-}
+
 .welcometext{
     font-size: 1.8em;
 }
 .toolset{
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .log_part{
     font-size: 3.79em;
@@ -512,6 +490,17 @@
 .social{
     flex-basis: 30%;
 }
+}
+/*burger*/
+@media only screen and (min-width:375px){
+    .bugger{
+        left: 47.9em;
+    }
+}
+@media only screen and (min-width:425px){
+    .bugger{
+        left: 57.9em;
+    }
 }
 @media only screen and (min-width:48em){
     .welcometext{
@@ -523,9 +512,14 @@
     .bugger-electrical{
         display: none;
     }
+    .bugger-fashion{
+        display: none;
+    }
     .burgerho{
         display: none;
     }
+    
+    
     .informationbox{
         flex-direction: row;
     }

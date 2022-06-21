@@ -155,6 +155,11 @@ li a {
 .main_area {
   margin: 1em;
   cursor: pointer;
+} 
+.background{
+  background-image: url(background/2111228-511f607bda3a.jpeg);
+  background-size: cover;
+  color-scheme: blue;
 }
 /* site for our history */
 .workspace {

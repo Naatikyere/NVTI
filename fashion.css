@@ -5,17 +5,77 @@
 .allone{
     margin-top: 9em;
 }
-.bugger{
-    left: 37.4em;
+.bugger-fashion{
+    position: relative;
+    font-size: 1.2em;
+}
+@media only screen and (min-width:320px){
+    .bugger-fashion{
+        left: 27.9em;
+    top: -4em;
+    }
+}
+@media only screen and (min-width:375px){
+    .bugger-fashion{
+        left: 35.9em;
+    top: -4em;
+    }
+}
+@media only screen and (min-width:425px){
+    .bugger-fashion{
+        left: 43.1em;
+    top: -4em;
+    }
+}
+@media only screen and (min-width:40em){
+    .forfashion{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        width: 650px!important;
+    }
+    .madam{
+        flex: 1;
+    }
+    .zakaria{
+        position: unset;
+        height: 51vmin!important;
+        width: 95%!important;
+        margin: 0;
+        margin-top: 0.5em;
+        margin-left: 0.5em
+    }
+    .hod_fashion{
+        flex: 1;
+        padding: 0!important;
+        font-size: 1.5em;justify-content: flex-end;
+    }
+    .tell{
+        font-size: 2em!important;
+    }
+    .cong{
+        font-size: ;
+    }
 }
 .menu{
     font-size: 3em;
 }
 .forfashion{
-    background-color: #cda5a1;
+    position: relative;
+    background-color: #005792;
     width: 250px;
+    color: aliceblue;
     border-radius: 1em;
     margin: auto;
+}
+.hod_fashion{
+    padding: 8.9em 1em 0 1em;
+}
+.hod_fashion > div{
+    padding: 0.4em 0;
+}
+.tell{
+    font-size: 1.2em;
 }
 .zakaria{
     height: 200px;
@@ -24,7 +84,7 @@
     left: 0.7em;
 }
 .hod_details{
-    padding: 8.9em 1em 0 1em;
+    
 }
 .hod_details span{
     font-weight: 900;
@@ -36,14 +96,12 @@
 .students_room{
     text-align: center;
     text-shadow: 2px 3px 3px red;
-    font-size: 5em;
     color: rgba(255,255,255,0.4);
     text-transform: uppercase;
 }
 .students_work{
     text-align: center;
     text-shadow: 2px 3px 3px red;
-    font-size: 5em;
     color: rgba(255,255,255,0.4);
     text-transform: uppercase;
 }

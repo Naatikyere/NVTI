@@ -1,0 +1,101 @@
+.forelectrical{
+    position: relative;
+}
+.bugger-electrical{
+    font-size: 0.9em;
+}
+@media only screen and (min-width:375px){
+    .bugger-electrical{
+        left: 47.9em;
+    }
+}
+@media only screen and (min-width:425px){
+    .bugger-electrical{
+        left: 57.8em;
+    }
+}
+@media only screen and (min-width:40em){
+    .forelectrical{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        width: 750px!important;
+    }
+    .madam{
+        flex: 1;
+    }
+    .zakaria{
+        position: unset;
+        height: 51vmin!important;
+        width: 95%!important;
+        margin: 0;
+        margin-top: 0.5em;
+        margin-left: 0.5em
+    }
+    .hod_electrical{
+        padding: 0.5em 1em 0 1em!important;
+        font-size: 1.2em!important;
+    }
+    .tell{
+        font-size: 2em!important;
+    }
+    .cong{
+        font-size: 2em!important;
+    }
+    .info4us_electrical{
+        margin-top: 4em!important;
+    }
+}
+.forelectrical{
+    position: relative;
+    background-color: #301551;
+    width: 250px;
+    color: aliceblue;
+    border-radius: 1em;
+    margin: auto;
+}
+.zakaria{
+    height: 200px;
+    border-radius: 10%;
+    width: 200px;
+}
+.hod_electrical{
+    padding: 6.5em 1em 0 1em;
+    font-size: 0.6em;
+}
+.hod_electrical span{
+    font-weight: 900;
+}
+.hod_electrical div{
+    display: flex;
+    flex-direction: row;
+}
+.infor4us_electrical{
+    padding: 0 0.2em;
+    
+}
+.telluselectric{
+    font-size: 2.5em;
+  }
+  .info4us_electrical{
+    font-size: 2.5em;
+    margin-top: 7em;
+  }
+  .tell{
+    font-size: 0.8em;
+    text-align: justify;
+}
+.students_room{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    color: rgba(255,255,255,0.4);
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+.students_work{
+    text-align: center;
+    text-shadow: 2px 3px 3px red;
+    color: rgba(255,255,255,0.4);
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
